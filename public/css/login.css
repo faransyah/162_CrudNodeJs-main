@@ -1,0 +1,109 @@
+/* login.css */
+.navbar {
+    display: none;
+}
+
+body {
+    background: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d); /* Gradasi biru tua, ungu, dan oranye */
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.login-container {
+    background: rgba(0, 0, 0, 0.6); /* Transparansi untuk kontainer */
+    border-radius: 20px;
+    padding: 40px;
+    width: 100%;
+    text-align: center;
+    max-width: 450px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.logo img {
+    width: 60px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+    transform: scale(1.1); /* Efek zoom pada logo */
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #fdbb2d; /* Warna kuning keemasan untuk judul */
+    text-align: center;
+    font-weight: 700;
+}
+
+p {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.form-label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fdbb2d; /* Warna kuning untuk label */
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #fdbb2d; /* Border berwarna kuning */
+    border-radius: 12px;
+    color: #fff;
+    padding: 12px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.form-control:focus {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #1a2a6c; /* Border saat fokus biru tua */
+    box-shadow: 0 0 5px rgba(26, 42, 108, 0.8);
+}
+
+.btn-primary {
+    background-color: #1a2a6c; /* Biru tua untuk tombol */
+    border: none;
+    border-radius: 12px;
+    padding: 12px 30px;
+    font-weight: 700;
+    font-size: 18px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+    background-color: #b21f1f; /* Warna merah pada hover */
+    transform: scale(1.05);
+}
+
+.signup-link {
+    color: #fdbb2d; /* Warna kuning untuk tautan pendaftaran */
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.signup-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 14px;
+    margin-top: 10px;
+}

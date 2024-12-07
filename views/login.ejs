@@ -1,0 +1,23 @@
+    <link rel="stylesheet" href="../public/css/login.css">
+        
+    <div class="login-container">
+        <div class="logo">
+            <img src="../public/img/accrypto.jpg" alt="Logo">
+        </div>
+        <h1>Login<h1>
+    <p >Please login to your account<p>
+        <form action="/login" method="POST">
+            <div class="mb-3">
+                <input type="text" placeholder="Username" class="form-control" id="username" name="username" required>
+            </div>
+            <div class="mb-3">
+                <input type="password" placeholder="Password" class="form-control" id="password" name="password" required>
+            </div>
+            <p class="text-center mt-3">
+                Belum punya akun? <a href="/signup" class="signup-link">Daftar di sini</a>.
+            </p>
+            <button type="submit" class="btn btn-primary w-100">Login</button>
+        </form>
+        
+    </div>
+
